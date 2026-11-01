@@ -1,0 +1,21 @@
+{
+  "name": "genpark-personal-agent-blood-omega3-dha-epa-index-cardiac-risk-skill",
+  "version": "1.0.0",
+  "description": "Erythrocyte membrane Omega-3 Index (EPA+DHA %), target > 8.0%, sudden cardiac death relative risk stratifier.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "stratify_omega3_index_cardiac_risk",
+      "description": "Erythrocyte membrane Omega-3 Index (EPA+DHA %), target > 8.0%, sudden cardiac death relative risk stratifier.",
+      "sample_input": {
+        "epa_dha_percent": 5.4,
+        "body_weight_kg": 78.0,
+        "current_daily_supplement_mg": 500
+      }
+    }
+  ]
+}
